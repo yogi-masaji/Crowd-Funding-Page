@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    background: url(images/image-hero-desktop.jpg), rgb(82, 19, 19);
+    background-repeat: no-repeat;
+    
+}
+
+.header{
+    background: rgba(0, 0, 0, 0);
+}
+
+a{
+    color: #fff !important;
+}
+
+.custom-nav ul{
+    margin-left: 50px !important;
+}
+
+
+.section-isi{
+    background-color: hsl(176, 50%, 47%);
+}
+
+.img{
+    display: block;
+    top: 50%;
+    position: absolute;
+    margin-left: 23%;
+    margin-right: auto;
+}
+
+.kotak{
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 250px;
+}
+
+.item-1{
+    align-items: center;
+    width: 700px;
+    height: 250px;
+    background-color: rgb(252, 250, 248);
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgb(131, 131, 131);
+}
+.tbl-kanan, .tbl-kiri{
+    margin-top: 40px;
+}
+.tbl-kiri{
+    width: 200px;
+    height: 50px;
+    margin-right: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(176, 50%, 47%);
+    font-family: 'Commissioner', sans-serif;
+    color:#fff;
+    transition: .5s;
+}
+
+.tbl-kiri:hover{
+    background-color: hsl(176, 63%, 29%);
+}
+
+.tbl-kanan{
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Commissioner', sans-serif;
+    color:#000;
+    transition: .5s;
+}
+
+.tbl-kanan:hover{
+    background-color: hsl(0, 2%, 69%);
+}
+
+.item-2{
+    
+    width: 700px;
+    height: 250px;
+    background-color: rgb(252, 250, 248);
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgb(131, 131, 131);
+    font-family: 'Commissioner', sans-serif;
+}
+
+.isi-item-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item-2 h1{
+    font-weight: 700;
+}
+
+.item-2 p{
+    font-weight: 400;
+}
+
+.kotak-3{
+    align-items: center;
+    width: 700px;
+    height: 1150px;
+    background-color: rgb(252, 250, 248);
+    margin: auto;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 50px 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgb(131, 131, 131);
+}
+
+.item-3{
+    width: 600px;
+    height: 200px;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.item-3 h1{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.item-3 p{
+    font-size: 15px;
+}
+
+.item-4{
+    margin-top: 35px;
+    width: 600px;
+    height: 250px;
+    font-family: 'Commissioner', sans-serif;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 25px 25px;
+}
+
+.judul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bambu{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.pledge{
+    font-size: 17px;
+    font-weight: 500;
+    color: hsl(176, 50%, 47%);
+}
+
+.item-4 p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.tombol{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.tombol h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.tombol span{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(75, 74, 74);
+}
+
+.tombol button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(176, 50%, 47%);
+    color: #fff;
+    transition: .5s;
+}
+
+.tombol button:hover{
+    background-color: hsl(176, 63%, 29%);
+}
+
+
+/* item-5 */
+.item-5{
+    margin-top: 35px;
+    width: 600px;
+    height: 250px;
+    font-family: 'Commissioner', sans-serif;
+    border: 2px solid rgb(236, 227, 227);
+    border-radius: 10px;
+    padding: 25px 25px;
+}
+
+.judul-2{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(138, 136, 136);
+}
+
+.bambu-2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.pledge-2{
+    font-size: 17px;
+    font-weight: 500;
+    color: hsl(176, 86%, 33%);
+}
+
+.item-5 p{
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgb(177, 174, 174);
+}
+
+.tombol-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.tombol-2 h1{
+    color: rgb(138, 136, 136);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.tombol-2 span{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(138, 136, 136);
+}
+
+.tombol-2 button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 48%);
+    color: #fff;
+    transition: .5s;
+}
+
+.tombol-2 button:hover{
+    background-color: hsl(0, 1%, 33%);
+}
+
+.hide p{
+    color: rgb(238, 238, 238);
+    text:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
